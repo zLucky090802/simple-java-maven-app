@@ -49,9 +49,9 @@ job('Java Maven App DSL 3') {
 job('Job test Hola Mundo') {
 	description('Aplicacion Hola Mundo de Prueba')
 	scm {
-		git('https://github.com/macloujulian/simple-java-maven-app.git', 'master') { node ->
-		    node / gitConfigName('macloujulian')
-		    node / gitConfigEmail('macloujulian@gmail.com')
+		git('https://github.com/zLucy090802/simple-java-maven-app.git', 'main') { node ->
+		    node / gitConfigName('zLucky090802')
+		    node / gitConfigEmail('d.espitia15@gmail.com')
 		}
 	}
 	triggers {
@@ -59,7 +59,7 @@ job('Job test Hola Mundo') {
     	}    
 	steps {
 		shell('''
-			echo "Hola Mundo!!!!"
+			echo "Hola Mundo!!!!!!!"
 		''')
 	}
 }
