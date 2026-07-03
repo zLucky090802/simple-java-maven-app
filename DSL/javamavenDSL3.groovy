@@ -59,7 +59,7 @@ job('Job test Hola Mundo') {
     	}    
 	steps {
 		shell('''
-			echo "hola putty"
+			echo "hola putty 2"
 		''')
 	}
 }
